@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="form" />
+        <module name="jeecg-system-cloud-api" />
+        <module name="geronimo-boot-utill" />
+        <module name="jeecg-boot-base-core" />
+        <module name="jeecg-boot-module-demo" />
+        <module name="jeecg-boot-base-tools" />
+        <module name="form-boot-test" />
+        <module name="jeecg-boot-module-system" />
+        <module name="jeecg-system-local-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="form" options="-parameters" />
+      <module name="form-boot-test" options="-parameters" />
+      <module name="geronimo-boot-utill" options="-parameters" />
+      <module name="jeecg-boot-base-core" options="-parameters" />
+      <module name="jeecg-boot-base-tools" options="-parameters" />
+      <module name="jeecg-boot-module-demo" options="-parameters" />
+      <module name="jeecg-boot-module-system" options="-parameters" />
+      <module name="jeecg-system-cloud-api" options="-parameters" />
+      <module name="jeecg-system-local-api" options="-parameters" />
+    </option>
+  </component>
+</project>
